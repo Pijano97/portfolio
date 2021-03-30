@@ -9,6 +9,7 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
+  z-index: 999999;
 
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;

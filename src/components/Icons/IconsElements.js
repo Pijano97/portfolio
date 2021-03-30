@@ -6,8 +6,13 @@ export const IconsSocial = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100px;
-  top: 30px;
-  right: 80px;
+  top: 1.2rem;
+  right: 1.5rem;
+  z-index: 9999;
+  @media screen and (max-width: 768px) {
+    top: 1.2rem;
+    right: 6rem;
+  }
 `;
 
 export const Icon = styled(Link)``;

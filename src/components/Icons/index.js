@@ -13,10 +13,15 @@ function Icons() {
   return (
     <>
       <IconsSocial>
-        <Icon to="www.github.com">
+        <Icon to={{ pathname: "https://github.com/Pijano97" }} target="_blank">
           <GitHubIcon style={{ fontSize: 35, color: white[50] }} />
         </Icon>
-        <Icon to="www.linkedin.com">
+        <Icon
+          to={{
+            pathname: "https://www.linkedin.com/in/dimitrije-gadzic-5247aa1b5/",
+          }}
+          target="_blank"
+        >
           <LinkedInIcon style={{ fontSize: 35, color: white[50] }} />
         </Icon>
       </IconsSocial>
