@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
+import { IoMailOutline } from "react-icons/io5";
 import {
   Nav,
   NavbarContainer,
@@ -28,7 +29,9 @@ function Navbar({ isOpen, toggle }) {
               <NavLinks to="services">Services</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
+              <NavLinks to="contact">
+                <IoMailOutline></IoMailOutline>
+              </NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

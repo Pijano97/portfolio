@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  IconsContainer,
-  IconsSocial,
-  Icon,
-  IconsContant,
-} from "./IconsElements";
+import { IconsSocial, Icon, IconsContant } from "./IconsElements";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import white from "@material-ui/core/colors/yellow";

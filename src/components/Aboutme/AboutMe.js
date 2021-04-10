@@ -3,7 +3,7 @@ import { FaChessKnight } from "react-icons/fa";
 import { GiDeliveryDrone } from "react-icons/gi";
 import { BsFillPuzzleFill } from "react-icons/bs";
 
-import img from "./img2.jpg";
+import img from "../../images/img.png";
 import {
   Container,
   TitleWrapper,
@@ -52,7 +52,7 @@ function AboutMe() {
             </Icons>
             <Icons>
               <BsFillPuzzleFill />
-              VideoGame
+              Games
             </Icons>
             <Icons>
               <GiDeliveryDrone />

@@ -9,10 +9,16 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  z-index: 999999;
+  z-index: 2;
+
+  @media screen and (max-width: 1024px) {
+    width: 200px;
+    transition: 0.8s all ease;
+  }
 
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
+    width: 0;
     background: none;
   }
 `;
@@ -80,6 +86,10 @@ export const NavLinks = styled(Link)`
   width: 300px;
   padding: 1rem 0;
 
+  @media screen and (max-width: 1024px) {
+    width: 200px;
+    transition: 0.8s all ease;
+  }
   cursor: pointer;
   border-bottom: 2px solid #690996;
 
