@@ -14,7 +14,7 @@
 
 ### Setup
 
-- `git clone` [https://github.com/Pijano97/Netflix-Clone.git]
+- `git clone` [https://github.com/Pijano97/portfolio.git]
 - in repo root directory - `npm install`
 - in repo root directory -` npm start`
 
