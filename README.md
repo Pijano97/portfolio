@@ -26,4 +26,4 @@ Next, you need to clone GIT repo
 
 ### Description of project
 
-- Personal portfolio
+Personal portfolio
