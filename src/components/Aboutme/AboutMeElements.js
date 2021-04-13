@@ -67,7 +67,7 @@ export const DescriptionWrapper = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
   }
 `;
 
@@ -119,6 +119,7 @@ export const IntrestContainer = styled.div`
   }
 
   @media screen and (max-width: 425px) {
+    margin-top: 2.5rem;
     width: 100%;
   }
 `;

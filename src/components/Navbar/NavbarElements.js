@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { COLORS } from "../color";
 import { Link } from "react-router-dom";
 
 export const Nav = styled.nav`
@@ -91,7 +92,7 @@ export const NavLinks = styled(Link)`
     transition: 0.8s all ease;
   }
   cursor: pointer;
-  border-bottom: 2px solid #690996;
+  border-bottom: 2px solid ${COLORS.primary};
 
   &:active {
     border-bottom: 3px solid #01bf71;
