@@ -7,22 +7,20 @@
 - [Technologies](#technologies)
 - [Description](#description)
 
+### Requirments
+
+- NodeJS (v14.15.1)
+- npm (v6.14.4)
+
 ### Setup
 
-- NodeJS (v14.15.1) - https://nodejs.org/en/
-- npm - package manager for NodeJS
-
-Next, you need to clone GIT repo
-
-- `git clone` [https://github.com/Pijano97/portfolio.git]
-- in root directory - `npm install`
-- in root directory -` npm start`
+- `git clone` [https://github.com/Pijano97/Netflix-Clone.git]
+- in repo root directory - `npm install`
+- in repo root directory -` npm start`
 
 ### Technologies
 
 - ReactJS
-- Git
-- VSCode
 
 ### Description of project
 
