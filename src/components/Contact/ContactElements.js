@@ -129,9 +129,9 @@ export const InfoContainer = styled.div`
   font-size: 24px;
   position: absolute;
   top: 10rem;
-  right: -300px;
-  width: 300px;
-  height: 350px;
+  right: -430px;
+  width: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column;
 
@@ -159,7 +159,7 @@ export const Adress = styled.div`
   transform: translateX(0px);
 
   &:hover {
-    transform: translateX(-200px);
+    transform: translateX(-160px);
   }
 `;
 export const Mail = styled.div`
@@ -173,7 +173,7 @@ export const Mail = styled.div`
   transform: translateX(0px);
 
   &:hover {
-    transform: translateX(-200px);
+    transform: translateX(-280px);
   }
 `;
 export const Phone = styled.div`
@@ -187,6 +187,11 @@ export const Phone = styled.div`
   transform: translateX(0px);
 
   &:hover {
-    transform: translateX(-200px);
+    transform: translateX(-160px);
   }
+`;
+
+export const ContactTitle = styled.p`
+  margin-left: 20px;
+  font-size: 20px;
 `;

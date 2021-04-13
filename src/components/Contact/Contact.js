@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiMapPin } from "react-icons/fi";
+import { HiPhone, HiMail } from "react-icons/hi";
 import {
   ContactContainer,
   Title,
@@ -14,6 +15,7 @@ import {
   Phone,
   Adress,
   Mail,
+  ContactTitle,
 } from "./ContactElements";
 
 function Contact() {
@@ -31,15 +33,15 @@ function Contact() {
           {/* Need to style */}
           <Adress>
             <FiMapPin />
-            Belgrade, Serbia
+            <ContactTitle>Belgrade, Serbia</ContactTitle>
           </Adress>
           <Phone>
-            <FiMapPin />
-            +381 61 3631480
+            <HiPhone />
+            <ContactTitle>+381613631480</ContactTitle>
           </Phone>
           <Mail>
-            <FiMapPin />
-            gadzic.dimitrije97@gmail.com
+            <HiMail />
+            <ContactTitle>gadzic.dimitrije97@gmail.com</ContactTitle>
           </Mail>
         </InfoContainer>
         <Title>Contact</Title>

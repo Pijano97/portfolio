@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   z-index: 2;
 
   @media screen and (max-width: 1024px) {

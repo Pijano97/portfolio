@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
+import { FiHome } from "react-icons/fi";
 import { IoMailOutline } from "react-icons/io5";
 import {
   Nav,
@@ -20,13 +21,15 @@ function Navbar({ isOpen, toggle }) {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks to="/">
+                <FiHome></FiHome>
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Discover</NavLinks>
+              <NavLinks to="about">ABOUT ME</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks to="services">PORTFOLIO</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="contact">

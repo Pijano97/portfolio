@@ -54,7 +54,7 @@ export const Name = styled.p`
 
 export const DescriptionWrapper = styled.div`
   width: 80%;
-  margin-top: 4.6rem;
+  margin-top: 6.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
